@@ -5,7 +5,7 @@ from pathlib import Path
 from core import pathex
 from core.interact import interact as io
 
-def extract_video(input_file, output_dir, output_ext=None, fps=None):
+def extract_video(input_file, output_dir, output_ext="png", fps=0):
     input_file_path = Path(input_file)
     output_path = Path(output_dir)
 
